@@ -19,6 +19,8 @@ The learning objectives with this app are:
 - Ruby on Rails
 - Rubocop
 
+
+
 =======
 
 ### Prerequisites
