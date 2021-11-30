@@ -2,10 +2,13 @@
 
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
-This is an app built as part of the Microverse final project.
+This is an app built as preparation for the Microverse final project.
 
  It is a simple practice app. It consist of a table with diffferent greetings and
-an API to retrieve them.
+an API to retrieve them, adn fetch them in a front-end built with ReactJs and Redux.
+ It consists of a single action and a single reducer and fetches a greeting from 
+the table and displays it in the static view in rails where the React components
+are shown.
 
 The learning objectives with this app are:
 - Implement a connection between a Ruby on Rails back-end and React front-end.

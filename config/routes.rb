@@ -1,13 +1,12 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  devise_for :users
+  root 'static#index'
 
-  resources :greetings
-  root 'landings#index'
   namespace :api do
-    namespace :v1 do
-      resources :greetings, only: [:index, :show, :create, :destroy]
+    namespace :v1,  defaults: { format: 'json' } do
+      get 'greetings', to: 'greetings#index'
     end
   end  
+    get '*path', to: 'static#index'
 end
