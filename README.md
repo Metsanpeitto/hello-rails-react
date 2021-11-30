@@ -15,7 +15,6 @@ The learning objectives with this app are:
 - Understand the pros and cons of different approaches of connecting Ruby on Rails back-end with React front-end.
 
 
-
 ## Built With 
 
 - Ruby on Rails
